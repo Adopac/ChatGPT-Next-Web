@@ -105,12 +105,12 @@ export function AuthPage() {
           type="primary"
           onClick={goChat}
         />
-        <IconButton
+        {/* <IconButton
           text={Locale.Auth.SaasTips}
           onClick={() => {
             goSaas();
           }}
-        />
+        /> */}
       </div>
     </div>
   );
@@ -158,7 +158,7 @@ function TopBanner() {
       <div className={`${styles["top-banner-inner"]} no-dark`}>
         <Logo className={styles["top-banner-logo"]}></Logo>
         <span>
-          {Locale.Auth.TopTips}
+          {/* {Locale.Auth.TopTips} */}
           <a
             href={SAAS_CHAT_URL}
             rel="stylesheet"
@@ -166,7 +166,7 @@ function TopBanner() {
               trackSettingsPageGuideToCPaymentClick();
             }}
           >
-            {Locale.Settings.Access.SaasStart.ChatNow}
+            {/* {Locale.Settings.Access.SaasStart.ChatNow} */}
             <Arrow style={{ marginLeft: "4px" }} />
           </a>
         </span>
