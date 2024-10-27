@@ -1393,7 +1393,7 @@ export function Settings() {
                 ? Locale.Settings.Update.FoundUpdate(remoteId ?? "ERROR")
                 : Locale.Settings.Update.IsLatest
             }
-          > */}
+          >
             {checkingUpdate ? (
               <LoadingIcon />
             ) : hasNewVersion ? (
@@ -1415,7 +1415,7 @@ export function Settings() {
                 onClick={() => checkUpdate(true)}
               />
             )}
-          </ListItem>
+          </ListItem> */}
 
           <ListItem title={Locale.Settings.SendKey}>
             <Select
